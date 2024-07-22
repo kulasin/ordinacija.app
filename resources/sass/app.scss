@@ -1,0 +1,18 @@
+// app.scss
+
+// Import vendor styles
+@import 'vendor/scss/bootstrap';
+@import 'vendor/scss/custom-variables';
+// Add more imports as needed
+
+// Import core styles
+@import 'core';
+@import 'theme-default';
+@import 'theme-bordered';
+@import 'theme-raspberry';
+@import 'theme-semi-dark';
+@import 'theme-semi-dark-dark';
+@import 'colors';
+@import 'bootstrap-extended';
+@import 'components';
+@import 'pages';
