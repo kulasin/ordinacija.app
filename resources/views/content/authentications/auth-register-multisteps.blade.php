@@ -53,7 +53,7 @@ $configData = Helper::appClasses();
 
         <!--  Multi Steps Registration -->
         <div class="d-flex col-lg-8 align-items-center justify-content-center p-sm-5 p-3">
-            <div class="w-px-700">
+            <div class="">
                 <div id="multiStepsValidation" class="bs-stepper shadow-none">
                     <div class="bs-stepper-header border-bottom-0">
                         <div class="step" data-target="#accountDetailsValidation">
