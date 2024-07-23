@@ -3,10 +3,10 @@
     "version": "1.3.1",
     "private": true,
     "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "watch": "vite build --watch"
+        "dev": "mix",
+        "build": "mix --production",
+        "watch": "mix watch",
+        "hot": "mix watch --hot"
     },
     "devDependencies": {
         "@babel/core": "7.22.5",
@@ -139,6 +139,7 @@
         "dropzone": "5.9.3",
         "flag-icons": "6.7.0",
         "flatpickr": "4.6.13",
+        "glob": "^11.0.0",
         "hammerjs": "2.0.8",
         "highlight.js": "11.8.0",
         "jkanban": "1.3.1",
